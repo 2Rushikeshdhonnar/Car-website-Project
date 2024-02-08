@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+
+}
+
+.card_hover{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_hover:hover{
+    transform: scale(1.05);
+}
+
+.card_bg{
+    background-image: url('./data/homeimg/dark.jpg');
+    /* background-color: ; */
+}
+
+.card_bg2{
+    background-image: url('./data/homeimg/dark2.jpg');
+    background-size: cover;
+    
+
+    /* background-color: ; */
+}
+
+

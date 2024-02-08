@@ -1,0 +1,57 @@
+.HomeLogo{
+    width: 75%;
+    height:auto;
+}
+
+
+.ExploreCarsBtn{
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.ExploreCarsBtn:hover{
+    background-color: #2a3239;
+    color: orange;
+}
+
+.HomeHeading h3{
+    font-size: 40px;
+}
+.HomeHeading h1{
+    font-size: 80px;
+}
+.HomeHeading{
+    margin-top: 40px;
+}
+
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background: #ffa600;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: #eaeaea;
+    color: #676767; ;
+}

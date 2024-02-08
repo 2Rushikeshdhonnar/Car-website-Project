@@ -1,0 +1,38 @@
+.nav__bar {
+    background: #1b2430;
+    /* background: #ffa600; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    padding: 10px 60px;
+  }
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+
+.nav_hover:hover{
+    /* color: #1b2430; */
+    color: #ffa600;
+}
+
+/* .nav_hover::before {
+  color: #ffa600;
+} */
+
+/* 
+.navbar-nav .nav-link.active{
+  color: #ffa600;
+} */
+
+.navbar-nav .nav-link.show::after{
+  color: #ffa600;
+}
+
+
+.navbar-nav .nav-link.active{
+  color: #ffa600;
+}
+

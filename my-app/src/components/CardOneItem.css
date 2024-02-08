@@ -1,0 +1,32 @@
+.image-container{
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-car{
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-car:hover{
+    transform: scale(1.05);
+}
+.brand-details-btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    /* border-radius: 0px 0px 10px 10px; */
+    color: #fff;
+    background: #ffa600;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}

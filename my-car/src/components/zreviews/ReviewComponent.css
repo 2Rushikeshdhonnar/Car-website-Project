@@ -1,0 +1,69 @@
+/* ReviewComponent.css */
+
+.review_body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://backiee.com/static/wpdb/wallpapers/v2/1000x563/376641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-image: cover;
+    position: flex;
+    
+  }
+  .riv{
+    color: rgb(7, 8, 8);
+  }
+  
+  #reviews, #reviewForm {
+    background-color:darkgray;
+    opacity: 80%;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .review_label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .review_input,
+  .review_select,
+  .review_textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .review_button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .review_button:hover {
+    background-color: #45a049;
+    border-radius: 20px;
+  }
+
+
+#user_form{
+    background-color:rgb(229, 255, 0);
+    opacity: 80%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

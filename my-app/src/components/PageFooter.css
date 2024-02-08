@@ -1,0 +1,23 @@
+.main-footer {
+    color: white;
+    background-color: #000000;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    text-align: left;
+  }
+
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-footer li{
+    list-style: none;
+}
+
+.copyright-row{
+    text-align: center;
+}

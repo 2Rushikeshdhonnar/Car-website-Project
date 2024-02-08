@@ -1,0 +1,44 @@
+  #ab{
+    color:orange;
+    font-size:x-large;
+  }
+  
+  .about-us-content{
+    font-size:x-small;
+    width: 600px;
+    margin: 100px;
+    justify-content: center;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: auto;
+    background-color: rgba(245, 228, 233, 0.8);
+    opacity: 100%;
+    position: relative;
+    top: 50px;
+    
+
+  }
+  .about-us-container{
+    height: 100vh;
+    background-image: url('./images/Image.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .wel{
+    text-align: center;
+    color:rgb(240, 8, 77)
+  }  
+  .about-us-content button{
+    background-color:blue;
+    border-radius: 20px;
+    color: antiquewhite;
+
+  }
+  .about_ol{
+    list-style: none;
+    text-align: justify;
+    padding-left: 230px;
+    }
+  
